@@ -7,35 +7,40 @@ function App() {
     <div className="App">
       <div className="mein">
         <h1>당근</h1>
-        <div id = "title ">아이디
+        <div className = "title ">아이디 </div>        
+          <div>
           <span className="box int_id">
             <input type="text" id="id" className="int" maxLength="20" />
-            <button id = "but">중복 확인</button>
+
           </span>
+          <button className = "but">중복 확인</button>
         </div>
-        <div className = "title ">비밀번호
-          <span className="box int_id">
-            <input type="text" id="id" className="int" maxLength="20" />
-          </span>
-        </div>
-        <div className = "title ">비밀번호 확인
-          <span className="box int_id">
-            <input type="text" id="id" className="int" maxLength="20" />
-          </span>
-        </div>
-        <div className = "title ">이름
-          <span className="box int_id">
-            <input type="text" id="id" className="int" maxLength="20" />
-          </span>
-        </div>
-        <div className = "title ">휴대폰
-          <span className="box int_id">
-            <input type="text" id="id" className="int" maxLength="20" />
-          </span>
-        </div>
+        <div className = "title ">비밀번호 </div>        
         <div>
-          <button className = "button">가입하기</button>
+          <span className="box int_id">
+            <input type="text" id="id" className="int" maxLength="20" />
+          </span>
         </div>
+        <div className = "title ">비밀번호 확인 </div>        
+        <div>
+          <span className="box int_id">
+            <input type="text" id="id" className="int" maxLength="20" />
+          </span>
+        </div>
+        <div className = "title ">이름 </div>        
+        <div>
+          <span className="box int_id">
+            <input type="text" id="id" className="int" maxLength="20" />
+          </span>
+        </div>
+        <div className = "title ">휴대폰 </div>        
+        <div>
+          <span className="box int_id">
+            <input type="text" id="id" className="int" maxLength="20" />
+          </span>
+          <button className = "but">인증하기</button>
+        </div>
+        <button className = "sign">가입하기</button>
       </div>
     </div>
   );
